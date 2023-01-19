@@ -1,12 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 * {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
 }
 
-html, body {
-  height: 100%;
+body {
   font-family: 'Roboto', sans-serif;
-  box-sizing: border-box;
 }
 
 .header-menu, .header-content, .information-header, .information-wrapper, .quote-container {
@@ -35,6 +34,7 @@ html, body {
   font: 24px extra-bold;
   font-weight: bolder;
   color: #F9FAF8;
+  text-decoration: none;
 }
 
 .header-link {
@@ -45,6 +45,7 @@ html, body {
 .header-link a {
   font-size: 18px;
   color: #E5E7EB;
+  text-decoration: none;
 }
 
 .header-content {
@@ -74,6 +75,7 @@ html, body {
 .header-button {
   background-color: #3882F6;
   font: 18px extra-bold;
+  font-weight: bolder;
   color: #F9FAF8;
   padding: 5px 30px 5px 30px;
   border-radius: 5px;
@@ -97,6 +99,7 @@ html, body {
 
 .information-header {
   font: 36px extra-bold;
+  font-weight: bolder;
   color: #1F2937;
   padding: 3%;
 }
