@@ -8,7 +8,7 @@ html, body {
   box-sizing: border-box;
 }
 
-.header-menu, .header-content, .information_header, .information_wrapper {
+.header-menu, .header-content, .information-header, .information-wrapper, .quote-container {
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -32,12 +32,13 @@ html, body {
 
 .header-logo a {
   font: 24px extra-bold;
+  font-weight: bolder;
   color: #F9FAF8;
 }
 
 .header-link {
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .header-link a {
@@ -60,6 +61,7 @@ html, body {
 
 .header-main-text {
   font: 48px extra-bold;
+  font-weight: bolder;
   color: #F9FAF8;
 }
 
@@ -84,7 +86,7 @@ html, body {
 
 /* Information section properties */
 
-.information_container {
+.information-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -92,32 +94,55 @@ html, body {
   padding-bottom: 5%;
 }
 
-.information_header {
+.information-header {
   font: 36px extra-bold;
   color: #1F2937;
   padding: 3%;
 }
 
-.information_wrapper {
+.information-wrapper {
   display: flex;
   justify-content: space-around;
 }
 
-.information_content {
+.information-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   flex-basis: 150px;
 }
 
-.information_content p {
+.information-content p {
   text-align: center;
 }
 
-.information_image {
+.information-image {
   border-color: #3882F6;
   border-style: solid;
   border-radius: 16px;
   height: 150px;
   width: 150px;
+}
+
+/* Quote Section properties */
+
+.quote-container {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  justify-content: flex-end;
+}
+
+.quote-text {
+  font: 36px light;
+  color: #1F2937;
+  font-style: italic;
+}
+
+.quote-subtext p {
+  color: #1F2937;
+  font: 24px extra-bold;
+  font-weight: bold;
 }
