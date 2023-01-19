@@ -146,3 +146,52 @@ html, body {
   font: 24px extra-bold;
   font-weight: bold;
 }
+
+/* Call to action Section properties */
+
+.calltoaction-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  justify-content: center;
+}
+
+.calltoaction-wrapper {
+  background-color: #3882F6;
+  display: flex;
+  flex-basis: 80%;
+  padding: 5%;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.calltoaction-left {
+  flex: 6;
+}
+
+.calltoaction-right {
+  flex: 1;
+}
+
+.calltoaction-maintext {
+  font: 24px extra-bold;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.calltoaction-subtext {
+  font: 18px;
+  color: #F9FAF8;
+}
+
+.calltoaction-button {
+  background-color: #3882F6;
+  font: 18px extra-bold;
+  font-weight: bolder;
+  color: #F9FAF8;
+  padding: 5px 30px 5px 30px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #F9FAF8;
+}
