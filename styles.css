@@ -8,6 +8,13 @@ html, body {
   box-sizing: border-box;
 }
 
+.header-menu, .header-content, .information_header, .information_wrapper {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* Page header properties */
+
 .header-container {
   background-color: #1F2937;
 }
@@ -17,8 +24,6 @@ html, body {
   align-items: stretch;
   margin: 0;
   list-style: none;
-  padding-left: 10%;
-  padding-right: 10%;
 }
 
 .header-logo {
@@ -75,4 +80,44 @@ html, body {
 .header-image {
   background-color: grey;
   justify-content: center;
+}
+
+/* Information section properties */
+
+.information_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 5;
+  padding-bottom: 5%;
+}
+
+.information_header {
+  font: 36px extra-bold;
+  color: #1F2937;
+  padding: 3%;
+}
+
+.information_wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.information_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-basis: 150px;
+}
+
+.information_content p {
+  text-align: center;
+}
+
+.information_image {
+  border-color: #3882F6;
+  border-style: solid;
+  border-radius: 16px;
+  height: 150px;
+  width: 150px;
 }
